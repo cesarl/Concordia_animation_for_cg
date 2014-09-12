@@ -31,3 +31,29 @@ We'll see :
 - Facial animation
 - Fluid simlation
 - Particle systems
+
+
+-----------------------------------
+
+-----------------------------------
+
+# Week 2
+
+We'll see today how to pose or character.
+
+With patrix the order of transformation makes a difference.
+
+Difference between change of basis and transformations :
+- Transformation :
+	- Move an object
+	- To change the coordiante frame -> for example position of an object from the camera (we multiply by the inverse of the camera transformation)
+- Change on basis -> ?
+
+## Lab
+
+
+	glUnproject(windowX, windowY, windowZ, viewport ...) 
+	v = cross(v1, v2);
+	v.normalize();
+
+
