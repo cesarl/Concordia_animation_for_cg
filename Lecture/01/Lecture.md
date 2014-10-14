@@ -56,4 +56,44 @@ Difference between change of basis and transformations :
 	v = cross(v1, v2);
 	v.normalize();
 
+The skeleton hierarchy is in skeleton.out
 
+
+# Week 3
+
+For skeletal animation
+
+1 - Convert from local transformation to global transformation
+2 - Stack transformations
+
+Skinning :
+
+Weight concern bones and not joins.
+
+### Mocap
+
+There is not keyframes and so not interpolations.
+
+Issues :
+- Aquisition :
+    - There can be error, camera rays can missed each others
+    - You need a lot of cameras
+    - You have to compute the skeleton from markers
+
+-------
+
+60 degrees around axis(1,1,0) -->
+(we have to normalize the axis)
+cos(60 / 2) + sin(60 / 2) * (i + j)
+Putain je pige rien (cf mes notes sur cahier -> ca va etre a l'exam :/ )
+
+# Week 4
+
+a * b = e ^ (log a b)
+= e ^ (log a + log b)
+
+---------
+
+### Space based deformations
+
+#### Barycentric corrdinates :
